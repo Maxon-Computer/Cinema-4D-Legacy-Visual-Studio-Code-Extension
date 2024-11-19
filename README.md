@@ -1,6 +1,6 @@
 # Cinema 4D Connector - Cinema 4D Plugin
 
-> This repository is provided as a legacy repository and its not actively maintained.
+> This repository is provided as a legacy repository and is not actively maintained.
 
 > :warning: **As of Cinema 4D 2023.2, this plugin is no longer required and supported**, as its functionality has been integrated into Cinema 4D. For more information please read the [Cinema 4D Connector documentation](https://help.maxon.net/c4d/en-us/#html/5896.html#codeexchangesendtoIDE).
 

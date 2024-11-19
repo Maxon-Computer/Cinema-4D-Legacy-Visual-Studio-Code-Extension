@@ -12,13 +12,13 @@ The solution is server-based and requires a matching implementation on the side 
 
 To use all the features it is necessary to install the following two extensions:
 
-- The Cinema 4D plugin, downloadable [here](/releases). Once downloaded, extract the archive to the Cinema 4D S26+ plugins folder. You then need to activate the extension in the Cinema 4D preferences in the `Extensions | Code Exchange` menu, activate the WebSocket Json checkbox.
+- The Cinema 4D plugin, downloadable [here](https://github.com/Maxon-Computer/Cinema-4D-Legacy-Visual-Studio-Code-Bridge-Plugin/releases). Once downloaded, extract the archive to the Cinema 4D S26+ plugins folder. You then need to activate the extension in the Cinema 4D preferences in the `Extensions | Code Exchange` menu, activate the WebSocket Json checkbox.
 
-- The `Cinema 4D Connector` extension for Visual Studio Code, directly accessible in the Visual Studio code marketplace, or download it [here](/releases).
+- The `Cinema 4D Connector` extension for Visual Studio Code, directly accessible in the Visual Studio code marketplace, or download it [here](https://github.com/Maxon-Computer/Cinema-4D-Legacy-Visual-Studio-Code-Bridge-Plugin/releases).
 
 ## Features
 
-In-depth documentation can be found in [Cinema 4D Connector - Documentation](/documentation.md).
+In-depth documentation can be found in [Cinema 4D Connector - Documentation](https://github.com/Maxon-Computer/Cinema-4D-Legacy-Visual-Studio-Code-Bridge-Plugin/blob/main/documentation.md).
 
 ## Requirements
 

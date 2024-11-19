@@ -6,9 +6,9 @@ This document contains documentation for the Cinema 4D Connector project.
 
 In order to be able to use all the features it is necessary to install the following two extensions:
 
-- The Cinema 4D plugin, downloadable [here](https://github.com/PluginCafe/Cinema4D_Connector-Cinema4D_Plugin/releases). Once downloaded, extract the archive to the Cinema 4D S26+ plugins folder. You then need to activate the extension in the Cinema 4D preferences in the `Extensions | Code Exchange` menu, activate the WebSocket Json checkbox.
+- The Cinema 4D plugin, downloadable [here](/releases). Once downloaded, extract the archive to the Cinema 4D S26+ plugins folder. You then need to activate the extension in the Cinema 4D preferences in the `Extensions | Code Exchange` menu, activate the WebSocket Json checkbox.
 
-- The `Cinema 4D Connector` extension for Visual Studio Code, directly accessible in the Visual Studio code marketplace, or download it [here](https://github.com/PluginCafe/Cinema4D_Connector-VisualStudioCode_Extension/releases).
+- The `Cinema 4D Connector` extension for Visual Studio Code, directly accessible in the Visual Studio code marketplace, or download it [here](https://github.com/Maxon-Computer/Cinema-4D-Visual-Studio-Code-Extension).
 
 ## Settings
 
@@ -57,7 +57,7 @@ In Visual Studio Code preference within the `Extensions | Cinema 4D` category.
 ## Known Issues
 
 - Autocompletion does not work for the `maxon` package.
-- Autocompletion does not work for temporary scripts from Cinema 4D, those whose path begins with `Root@`, e.g. `Root@12345678/Scripts@12345678/untilted.py.`
+- Autocompletion does not work for temporary scripts from Cinema 4D, those whose path begins with `Root@`, e.g. `Root@12345678/Scripts@12345678/untitled.py.`
 - Autocompletion for methods from the `c4d` package will generate incomplete default argument if this argument is part of the `c4d` package, e.g. the autocompletion will output only `BaseContainer` while it should be `c4d.BaseContainer`.
 - When the `Load Script in Script Manager` command is used on an untitled file, it creates a new temporary file in Cinema 4D and this is returned to Visual Studio Code. This file should be used to exchange data to/from Cinema 4D.
 - The first debugging session will show a message about the deprecated use of `ptvsd`, this is a false positive and can be ignored.
